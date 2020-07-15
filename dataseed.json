@@ -1,0 +1,54 @@
+[
+    {
+        "model": "app.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$180000$LKwdylDNHTg9$nytSbYm5eQ57lq0oWwiJwBjwzWyrabdtLAhtVoDxRpw=",
+            "last_login": "2020-07-15T02:44:34.090Z",
+            "is_superuser": true,
+            "username": "admin",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2020-07-02T07:34:42.114Z",
+            "address": "",
+            "role": "STF",
+            "name": "",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "app.muzakki",
+        "pk": 1,
+        "fields": {
+            "no_ktp": "",
+            "name": "muzakki",
+            "address": "jalan damai",
+            "email": "",
+            "phone": "",
+            "created_date": "2020-07-02T07:35:01.574Z"
+        }
+    },
+    {
+        "model": "app.muzakki",
+        "pk": 2,
+        "fields": {
+            "no_ktp": "123456789",
+            "name": "Abdullah",
+            "address": "jalan madrasah",
+            "email": "mail@mail.com",
+            "phone": "08312142121",
+            "created_date": "2020-07-15T02:45:21.555Z"
+        }
+    },
+    {
+        "model": "app.period",
+        "pk": 1,
+        "fields": {
+            "year": 2020,
+            "desc": "Periode 2020",
+            "is_active": true
+        }
+    }
+]
